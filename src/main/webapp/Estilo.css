@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+.contenedor1{
+	background-color: lightgrey;
+	width:155%;
+}
+.contenedor2{
+	background-color: peachpuff;
+	width:155%;
+}
+.contendor3{
+	background-color:darkred;
+	width:155%;
+}

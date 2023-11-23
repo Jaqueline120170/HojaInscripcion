@@ -9,20 +9,19 @@
 <h1>HOJA DE INSCRIPCIÓN</h1>
 <h2>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
 <body>
-	<div class="boton">
 <div class="contenedor1">
 <form id="Datos Personales">
-	<label for="nombre">Nombre:</label><br>
+	<input type="button" id="boton" value="Datos Personales" /><br>
+	<label for="nombre">Nombre:</label><label for="email">Correo electronico:</label><label for="text">DNI:</label><br>
 	<input type="text" id="nombre" name="requiered">
-	<label for="email">Correo electronico:</label>
 	<input type="email" id="email" name="email" required>
-	<label for="text">DNI:</label>
 	<input type="text" id="DNI" name="DNI" required><br>
-	<p><label for="nombre">Localidad de Nacimiento:</label></p>
+	
+	<label for="nombre">Localidad de Nacimiento:</label>
 	<input type="text" id="locNacimiento" name="requiered">
 	<label for="provincia"> Provincia:</label>
 	<select name="provincia">
-    <option value="0"></option>
+       <option value="0"></option>
        <option value="1">Granada</option>
        <option value="2">Sevilla</option>
        <option value="3">Cádiz</option>
@@ -32,15 +31,13 @@
        <option value="7">Almeria</option> 
        </select>
     <label for="fechaNac">Fecha de Nacimiento:</label>
-	<input type="date" id="fechaNac" name="fechaNac" required>
-	<p><label for="Direccion">Dirección:</label></p>
+	<input type="date" id="fechaNac" name="fechaNac" required><br>
+	<label for="Direccion">Dirección:</label><label for="CP">Codigo Postal:</label><br>
 	<input type="text" id="Direccion" name="direccion" required>	
-	<label for="CP">Codigo Postal:</label>
 	<input type="text" id="CP" name="CP" required>	
-</form>
 </div>
 <div class="contenedor2">
-<form id="Forma de acceso">
+	<input type="button" id="boton" value="Forma de Acceso"/><br>
 	<input type="radio" id="directo" name="directo">
 	<label for="directo">Directo</label><br>
 	<input type="radio" id="bachillerato" name="bachillerato">
@@ -61,11 +58,11 @@
 	<input type="text" id="especificar" name="especificar"><br>
 	<input type="radio" id="pl" name="pl">
 	<label for="pl">Prueba Libre</label>
-</form>	
+
 </div>
 
 <div class="contenedor3">
-<form id="Documentos Adjuntados">
+	<input type="button" id="boton" value="Documentos Adjuntados" /><br>
 	<input type="checkbox" id="dni" name="dni">
 	<label for="dni">Fotocopia DNI</label>
 	<input type="checkbox" id="ca" name="ca">
@@ -73,8 +70,10 @@
 	<input type="checkbox" id="od" name="od">
 	<label for="od">Otros Documentos</label>
 	<label for="especifique">Especifique</label>
-	<input type="text" id="especifique" name="especifique"><br>	
-	<input type="reset" id="Enviar Solicitud" name="Enviar Solicitud">
+	<input type="text" id="especifique" name="especifique">
+<div class="boton">
+<input type="submit" id="Enviar" name="Enviar Solicitud">	
+</div>
 </form>
 </div>
 </div>

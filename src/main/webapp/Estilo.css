@@ -1,5 +1,11 @@
 @charset "UTF-8";
-
+#boton{
+	margin-bottom: 2rem;
+}
+input:hover{
+color:red;
+background-color:yellow;	
+}
 h1{
 	text-align: center;
 }
@@ -10,12 +16,54 @@ h2{
 .contenedor1{
 	background-color: lightgrey;
 	width:155%;
+	margin-bottom: 1rem;
+}
+
+#CP{
+	margin-bottom:2rem ;
 }
 .contenedor2{
 	background-color: peachpuff;
 	width:155%;
+	margin-bottom: 1rem;
 }
-.contendor3{
-	background-color:darkred;
+#directo{
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+#bachillerato{
+	margin-left:5rem;
+}
+#Experimental{
+	margin-left:5rem;
+}
+#COU{
+	margin-left:5rem;
+	
+}
+#fp2{
+	margin-left:5rem;
+}
+#otros{
+	margin-left:5rem;
+}
+#pl{
+	margin-left:3rem;
+	margin-bottom:2rem;
+}
+.contenedor3{
+	background-color: indianred;
 	width:155%;
+}
+#dni{
+	margin-top:2rem;
+}
+#especifique{
+	margin-bottom:2rem;
+}
+.boton{
+background-color: white;	
+}
+#Enviar{
+	margin-top:2rem;
 }

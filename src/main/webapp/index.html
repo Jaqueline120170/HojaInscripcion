@@ -12,15 +12,14 @@
 <div class="contenedor1">
 <form id="Datos Personales">
 	<input type="button" id="boton" value="Datos Personales" /><br>
-	<label for="nombre">Nombre:</label><label for="email">Correo electronico:</label><label for="text">DNI:</label><br>
+	<label for="nombre" id="name">Nombre:</label><label for="apellidos" id="apellidos">Apellidos:</label><label for="text" id="DOC">DNI:</label><br>
 	<input type="text" id="nombre" name="requiered">
-	<input type="email" id="email" name="email" required>
+	<input type="apellidos" id="apellidos" name="apellidos"required>
 	<input type="text" id="DNI" name="DNI" required><br>
 	
-	<label for="nombre">Localidad de Nacimiento:</label>
-	<input type="text" id="locNacimiento" name="requiered">
-	<label for="provincia"> Provincia:</label>
-	<select name="provincia">
+	<label for="locNacimiento" id="ld">Localidad de Nacimiento:</label><label for="provincia" id="p"> Provincia:</label> <label for="fechaNac" id="fn">Fecha de Nacimiento:</label><br>
+	<input type="text" id="locnacimiento"name="requiered">
+	<select name="provincia" id="provincia">
        <option value="0"></option>
        <option value="1">Granada</option>
        <option value="2">Sevilla</option>
@@ -30,9 +29,8 @@
        <option value="6">Huelva</option>
        <option value="7">Almeria</option> 
        </select>
-    <label for="fechaNac">Fecha de Nacimiento:</label>
 	<input type="date" id="fechaNac" name="fechaNac" required><br>
-	<label for="Direccion">Dirección:</label><label for="CP">Codigo Postal:</label><br>
+	<label for="Direccion" id="dir">Dirección:</label><label for="CP" id="cp">Codigo Postal:</label><br>
 	<input type="text" id="Direccion" name="direccion" required>	
 	<input type="text" id="CP" name="CP" required>	
 </div>
@@ -57,12 +55,10 @@
 	<label for="especificar">Especifique</label>
 	<input type="text" id="especificar" name="especificar"><br>
 	<input type="radio" id="pl" name="pl">
-	<label for="pl">Prueba Libre</label>
-
+	<label r="pl">Prueba Libre</label>
 </div>
-
 <div class="contenedor3">
-	<input type="button" id="boton" value="Documentos Adjuntados" /><br>
+	<input type="button" id="botond" value="Documentos Adjuntados"/><br>
 	<input type="checkbox" id="dni" name="dni">
 	<label for="dni">Fotocopia DNI</label>
 	<input type="checkbox" id="ca" name="ca">
